@@ -1,0 +1,120 @@
+html {
+    box-sizing: border-box;
+    margin-left: 50px;
+    }
+
+body {
+    background-color: #2A7A8C;
+    font-size: 20px;
+}
+
+.container {
+    display: grid;
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 12;
+}
+
+.cabecalho {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    justify-content:start;
+    color: white; 
+    font-size: 20px;
+    padding: 8px 16px;
+    text-align: left;
+}
+
+.menu {
+    grid-column-start: 6;
+    grid-column-end: 12;
+    justify-content:end;
+    margin-right: 20px;
+}
+
+li, a {
+    display: inline;
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    font-weight:lighter;
+    background: #99B8BF;
+}
+.conteudo {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    color: white; 
+    font-size: 20px;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.img {
+    grid-column-start: 10;
+    grid-column-end: 12;
+    text-align: right;
+
+}
+
+
+.footer {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    justify-content:center;
+    color: white; 
+    font-size: 15px;
+    padding: 8px 16px;
+    text-align: center;
+}
+
+/* Sobre mim */
+
+.titulo2 {
+    grid-column-start: 1;
+    grid-column-end: 12;
+}
+
+.divImg {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.imgEu {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    /* float: right; */
+    width: 30%;
+    /* border: thin solid; */
+    /* padding: 10px;
+    margin: 0px 10px 10px 0 */
+}
+
+.infoGerais, .li, .a  {
+    grid-column-start: 5;
+    grid-column-end: 12;
+    text-align: justify;
+    display: block;
+    text-decoration: none;
+    color: white;
+    /* padding: 8px 16px; */
+
+}
+
+/* .info {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: right;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+} */
+
