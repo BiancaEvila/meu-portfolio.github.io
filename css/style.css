@@ -89,7 +89,7 @@ ul li a:hover {
 }
 .imgEu {
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 3;
     /* float: right; */
     width: 30%;
     /* border: thin solid; */
@@ -98,7 +98,7 @@ ul li a:hover {
 }
 
 .infoGerais, .li, .a  {
-    grid-column-start: 5;
+    grid-column-start: 4;
     grid-column-end: 12;
     text-align: justify;
     display: block;
