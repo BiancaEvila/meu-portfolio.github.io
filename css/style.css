@@ -1,7 +1,7 @@
 html {
     box-sizing: border-box;
-    margin-left: 50px;
-    }
+    /* margin-left: 50px; */
+}
 
 body {
     background-color: #2A7A8C;
@@ -47,6 +47,7 @@ ul li a:hover {
     font-weight:lighter;
     background: #99B8BF;
 }
+
 .conteudo {
     grid-column-start: 1;
     grid-column-end: 9;

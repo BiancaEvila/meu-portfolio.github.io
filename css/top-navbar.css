@@ -1,0 +1,19 @@
+.top-navbar {
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+
+
+.top-navbar nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+.top-navbar nav > ul > li > a {
+    text-decoration: none;
+}
+
+.active-item {
+    background-color: #99B8BF;
+}
