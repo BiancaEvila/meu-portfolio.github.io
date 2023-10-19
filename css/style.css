@@ -83,38 +83,27 @@ ul li a:hover {
     grid-column-end: 12;
 }
 
-.divImg {
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
 .imgEu {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    /* float: right; */
-    width: 30%;
-    /* border: thin solid; */
-    /* padding: 10px;
-    margin: 0px 10px 10px 0 */
+    /* grid-column-start: 1;
+    grid-column-end: 2; */
+    float: left;
+    width: 25%;
+    border: thin solid;
+    margin: 0px 10px 10px 0;
 }
 
 .infoGerais, .li, .a  {
-    grid-column-start: 4;
-    grid-column-end: 12;
-    text-align: justify;
+    text-align: center;
     display: block;
     text-decoration: none;
     color: white;
-    /* padding: 8px 16px; */
+    }
 
-}
-
-/* .info {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    text-align: right;
+.info {
+    text-align: center;
     display: block;
     text-decoration: none;
     color: white;
     padding: 8px 16px;
-} */
+}
 
