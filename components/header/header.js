@@ -33,15 +33,14 @@ document.getElementById("header").innerHTML =
   "  </nav> " +
   "</header>  ";
 
-const menuItems = document.getElementsByClassName("menu-item");
-const removeActive = (el) => el.classList.remove("active-item");
-const addActive = (el) => el.classList.add("active-item");
+const menuItens = document.querySelectorAll(".menu-item");
+const currentPage = document.URL;
 
-Array(menuItems).forEach((element) => {
-  element.onclick = () => {
-    menuItems.forEach((el) => {
-      removeActive(el);
+menuItens.forEach((el) => {
+  el.addEventListener("click", function () {
+    menuItens.forEach((item) => {
+      item.classList.remove("active-item");
     });
-    addActive(this);
-  };
+    el.classList.add("active-item");
+  });
 });
