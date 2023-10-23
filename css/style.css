@@ -81,7 +81,7 @@ ul li a:hover {
     text-align: center;
 }
 
-/* Sobre mim */
+/* estilização da seção sobre mim */
 
 .titulo2 {
     grid-column-start: 1;
@@ -96,6 +96,8 @@ ul li a:hover {
 }
 
 .infoGerais, .li, .a  {
+    grid-column-start: 1;
+    grid-column-end: 12;
     text-align: center;
     display: block;
     text-decoration: none;
@@ -119,6 +121,8 @@ ul li a:hover {
     padding: 8px 16px;
 }
 
+/* estilização da seção portfolio */
+
 .portfolio {
     text-align: center;
     display: block;
@@ -138,7 +142,7 @@ ul li a:hover {
 
 .imgPort {
     text-align: center;
-    width: 20%;
+    width: 40%;
     border: thin solid;
 }
 
@@ -153,9 +157,29 @@ ul li a:hover {
     grid-column-end: 12;
 }
 
+/* estilização do formulário de contato */
+
 .form {
     text-align:center ;
     display: block;
     text-decoration: none;
     color: white;
 }
+
+
+.button {
+    background-color: #99B8BF; 
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+
+
+
+
+  
