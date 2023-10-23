@@ -38,20 +38,6 @@ body {
     justify-content:end;
 }
 
-li, a {
-    display: inline;
-    text-decoration: none;
-    color: white;
-    padding: 8px 16px;
-    text-align: center;
-}
-
-ul li a:hover {
-    text-decoration: underline;
-    font-weight:lighter;
-    background: #2A7A8C;
-}
-
 .conteudo {
     grid-column-start: 1;
     grid-column-end: 9;
@@ -71,27 +57,55 @@ ul li a:hover {
 }
 
 /* estilização da seção sobre mim */
+.sobremim-container {
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: column;
+}
+
+.sobremim-content {
+    /* background-color: red; */
+    /* margin-left: 40px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto {
+   
+}
+
+.info-sobremim {
+    /* background-color: aqua; */
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.list-style-none {
+    list-style-type: none;
+}
+
+.foto-info {
+    display: flex;
+    justify-content: start;
+    /* background-color: brown; */
+    margin-bottom: 15px;
+}
+
+.bio {
+    /* background-color: bisque; */
+    text-align: justify;
+    color: white;
+    width: 550px;
+}
 
 .titulo2 {
     grid-column-start: 1;
     grid-column-end: 12;
 }
-
-.imgEu {
-    float: left;
-    width: 25%;
-    border: thin solid;
-    margin: 0px 10px 10px 0;
-}
-
-.infoGerais, .li, .a  {
-    grid-column-start: 1;
-    grid-column-end: 12;
-    text-align: center;
-    display: block;
-    text-decoration: none;
-    color: white;
-    }
 
 .info {
     text-align: center;
@@ -171,7 +185,7 @@ ul li a:hover {
     text-align: center;
     text-decoration: none;
     color: white;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .imgPort {
