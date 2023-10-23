@@ -1,0 +1,37 @@
+.header {
+    background-color: #99B8BF;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.logo {
+    margin-left: 47px;
+    font-size: 1.5rem;
+}
+
+.header nav > ul {
+    display: flex;
+    align-items: center;
+
+}
+
+.header nav > ul > li > a {
+    text-decoration: none;
+}
+
+.header nav > ul > li {
+    height: 60px;
+    display: flex;
+}
+
+.header nav > ul > li:hover {
+    background: #2A7A8C;
+}
+
+.active-item {
+    background-color: #2A7A8C;
+}
+

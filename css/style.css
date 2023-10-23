@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #2A7A8C;
+    font-size: 20px;
+}
+
+
+.container {
+    display: grid;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.content{
+    display: grid;
+}
+
+
+.cabecalho {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    justify-content:start;
+    color: white; 
+    font-size: 20px;
+    padding: 0px;
+    text-align: left;
+}
+
+.menu {
+    grid-column-start: 6;
+    grid-column-end: 12;
+    justify-content:end;
+}
+
+li, a {
+    display: inline;
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    font-weight:lighter;
+    background: #2A7A8C;
+}
+
+.conteudo {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    color: white; 
+    font-size: 20px;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.img {
+    grid-column-start: 10;
+    grid-column-end: 12;
+    text-align: right;
+
+}
+
+
+.footer {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    justify-content:center;
+    color: white; 
+    font-size: 15px;
+    padding: 8px 16px;
+    text-align: center;
+}
+
+/* Sobre mim */
+
+.titulo2 {
+    grid-column-start: 1;
+    grid-column-end: 12;
+}
+
+.imgEu {
+    float: left;
+    width: 25%;
+    border: thin solid;
+    margin: 0px 10px 10px 0;
+}
+
+.infoGerais, .li, .a  {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: white;
+    }
+
+.info {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+}
+
+/* Formação */
+.formacao {
+    text-align: justify;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+}
+
+.portfolio {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: white;
+    /* padding: 8px 16px; */
+}
+
+.tituloPort {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.imgPort {
+    text-align: center;
+    width: 20%;
+    border: thin solid;
+}
+
+.proj1 {
+    grid-column-start: 1;
+    grid-column-end: 7.5;
+    border: 5px color white;
+}
+
+.proj2 {
+    grid-column-start: 7.6;
+    grid-column-end: 12;
+}
+
+.form {
+    text-align:center ;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
