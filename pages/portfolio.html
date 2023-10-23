@@ -1,46 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio</title>
-    <link rel="stylesheet" href="../css/style.css"> 
-
-</head>
-<body>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
     <div id="header"></div>
 
     <!-- Seção de Portfolio-->
-    <section class="container">
-            <h1 class="container tituloPort">Portfólio</h1>
-            <div class="proj1 portfolio">
-                <img class="imgPort" src="../imagens/portfolio.png" alt="Imagem projeto 1">
-                    <h4 style="color: #c0eaf3; font-size: 25px;">Portfolio Pessoal</h4> <br>
-                    <p>Trabalho desenvolvido na disciplina de Fundamentos de Progamação <br> Web  com o intuito de colocar em prática <br> os conceitos apresentados em aula.</p> <br>
-                    <div>
-                        <a href="https://github.com/BiancaEvila/meu-portfolio" target="_blank">Clique para conferir</a>
-                    </div>
-            </div>
-            <div class="proj2 portfolio">
-                <img class="imgPort" src="../imagens/supercalc.png" alt="Imagem projeto 2">
-                    <h4 style="color: #c0eaf3; font-size: 25px;">Super calculadora</h4> <br>
-                    <p>Calculadora desenvolvida como projeto em um minicamp da XPE <br>com as tecnologias HTML, CSS e JS</p> <br>
-                    <div>
-                        <a href="https://github.com/BiancaEvila/super_calc" target="_blank">Clique para conferir</a> 
-                    </div>   
-            </div>
+    <section class="portfolio-container">
+      <h1 class="container tituloPort">Portfólio</h1>
+      <div class="projetos-portfolio">
+        <div class="projeto">
+          <img
+            class="imgPort"
+            src="../imagens/portfolio.png"
+            alt="Imagem projeto 1"
+          />
+          <h2 class="titulo-projeto">Portfólio Pessoal</h2>
+          <p class="texto-projeto">
+            Trabalho desenvolvido na disciplina de Fundamentos de Progamação Web
+            com o intuito de colocar em prática <br />
+            os conceitos apresentados em aula.
+          </p>
+          <div class="link">
+            <a
+              href="https://github.com/BiancaEvila/meu-portfolio"
+              target="_blank"
+              >Clique para conferir</a
+            >
+          </div>
+        </div>
+        <div class="projeto">
+          <img
+            class="imgPort"
+            src="../imagens/supercalc.png"
+            alt="Imagem projeto 2"
+          />
+          <h2 class="titulo-projeto">Super calculadora</h2>
+          <p class="texto-projeto">
+            Calculadora desenvolvida como projeto em um minicamp da XPE com as
+            tecnologias HTML, CSS e JS
+          </p>
+          <div class="link">
+            <a href="https://github.com/BiancaEvila/super_calc" target="_blank"
+              >Clique para conferir</a
+            >
+          </div>
+        </div>
+      </div>
     </section>
-    <br> <br>
+    <br />
+    <br />
 
     <!-- footer-->
-    <footer class="container footer"">
-        <div>
-            <p>Desenvolvido por Bianca Évila</p>
-            <p>Copyright &copy; 2023</p>
-        </div>
+    <footer class="container footer">
+      <div>
+        <p>Desenvolvido por Bianca Évila</p>
+        <p>Copyright &copy; 2023</p>
+      </div>
     </footer>
 
     <script src="../components/header/header.js"></script>
-
-</body>
+  </body>
 </html>
