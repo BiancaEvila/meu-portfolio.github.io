@@ -70,17 +70,6 @@ ul li a:hover {
 
 }
 
-
-.footer {
-    grid-column-start: 1;
-    grid-column-end: 12;
-    justify-content:center;
-    color: white; 
-    font-size: 15px;
-    padding: 8px 16px;
-    text-align: center;
-}
-
 /* estilização da seção sobre mim */
 
 .titulo2 {
