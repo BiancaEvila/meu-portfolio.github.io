@@ -58,26 +58,18 @@ body {
 
 /* estilização da seção sobre mim */
 .sobremim-container {
-    /* background-color: purple; */
     display: flex;
     flex-direction: column;
 }
 
 .sobremim-content {
-    /* background-color: red; */
-    /* margin-left: 40px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.foto {
-   
-}
-
 .info-sobremim {
-    /* background-color: aqua; */
     color: white;
     display: flex;
     align-items: center;
@@ -91,12 +83,10 @@ body {
 .foto-info {
     display: flex;
     justify-content: start;
-    /* background-color: brown; */
     margin-bottom: 15px;
 }
 
 .bio {
-    /* background-color: bisque; */
     text-align: justify;
     color: white;
     width: 550px;
@@ -169,6 +159,9 @@ body {
     background-color: #99B8BF;
     width: 50px;
     border-radius: 30px;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
 }
 
 .link a:hover {
