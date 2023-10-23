@@ -12,6 +12,11 @@
     font-size: 1.5rem;
 }
 
+.logo a {
+    color: white;
+    text-decoration: none;
+}
+
 .header nav > ul {
     display: flex;
     align-items: center;
@@ -20,6 +25,8 @@
 
 .header nav > ul > li > a {
     text-decoration: none;
+    padding: 16px;
+    color: white;
 }
 
 .header nav > ul > li {
