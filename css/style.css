@@ -9,6 +9,17 @@ body {
   font-size: 20px;
 }
 
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
 .container {
   display: grid;
   margin-left: 30px;
@@ -195,21 +206,38 @@ body {
 }
 
 /* estilização do formulário de contato */
+.contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .form {
-  text-align: center;
-  display: block;
-  text-decoration: none;
-  color: white;
+  background-color: #99b8bf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  border-radius: 5px;
+}
+
+.form-field {
+  padding: 12px;
+  margin: 2px;
+  width: 98%;
+}
+
+.form-textarea {
+  margin: 2px;
+  width: 98%;
 }
 
 .button {
-  background-color: #99b8bf;
-  border: none;
+  background-color: #2a7a8c;
   color: white;
-  padding: 10px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+  padding: 10px 20px;
+  margin: 2px;
+  width: 150px;
+  border: 0;
+  border-radius: 10px;
 }
